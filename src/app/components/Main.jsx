@@ -5,8 +5,11 @@ import { ConnectedDashboard } from './Dashboard'
 
 export const Main = () => {
       return(
-            <Provider store={ store }>
-                  <ConnectedDashboard />
-            </Provider>
+            <div>
+                  <h1>From Javascript</h1>
+<!--                   <Provider store={ store }>
+                        <ConnectedDashboard />
+                  </Provider> -->
+            </div>
       )
 }
